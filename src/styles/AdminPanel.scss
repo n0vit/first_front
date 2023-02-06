@@ -1,0 +1,36 @@
+.admin_page{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 120px;
+
+  &__primary_button {
+    align-self: center;
+    padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 80px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Public Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    background: #f5f5f5;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0 #000000;
+    border-radius: 52px;
+  }
+  &__title{
+    font-family: Gilroy,sans-serif;
+    padding: 30px 0 60px 0;
+    align-self: center;
+    font-size: 62px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .3px;
+  }
+}
